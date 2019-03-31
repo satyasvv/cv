@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact ME</title>
+  </head>
+  <body>
+  <!--  <h1>My Contact Details</h1>
+    <p>My Address</p>
+    <p>8888888888</p>
+    <p>sathya.svv@gmail.com</p>   -->
+<!--
+  <form  action="index.html" >  -->
+
+  <form  action="mailto:sathya.svv@gmail.com" method="post" enctype="text/plain">
+
+
+
+    <!--
+      FirstName: <input type="text" name="firstname" value="Enter First name"> <br>
+      LastName: <input type="text" name="lastname" placeholder="Enter Last name"> <br>
+      Email: <input type="email" name="email" placeholder="Enter your email"> <br>
+      Password: <input type="password" name="password" placeholder="Enter password" required> <br>
+      <input type="submit"  value="submit">
+    -->
+
+
+<!-- using labels -->
+  <font color="Green">
+  <h2> Fill the Below form to Subscribe </h2>  </font>
+      <label for="Name"> <strong> Enter name: </strong></label>
+      <input id="Name" type="text" name="uname" placeholder="Enter your name"> <br>
+      <label  for="email"> <strong> Enter Email: </strong> </label>
+      <input  id="email" type="email" name="ename" placeholder="Enter your Email"> <br>
+      <label  for="pwd"> <strong> Enter password: </strong> </label>
+      <input  id="pwd" type="password" name="password" placeholder="Enter your Password" required> <br>
+
+      <br><label for='m'>Male</label>
+      <input id='m'  type="radio" name="gender" value="Male"> <br>
+      <label for='f'>Female</label>
+      <input id='f'  type="radio" name="gender" value="Female" > <br>
+
+  <!-- Check box -->
+    <h3>Choose your known languages </h3>
+      <label for="Eng">English </label>
+      <input type="checkbox" name="languages" value="English" checked>
+      <label for="tlg">Telugu </label>
+      <input type="checkbox" name="languages" value="Telugu" >
+      <label for="Hind">Hindi </label>
+      <input type="checkbox" name="languages" value="Hindi" >
+
+<!-- drop down list -->
+      <h3>Please Select payment mode</h3>
+
+      <select  name="pmode">
+        <option value="ccard"> Credit Card </option>
+        <option value="dcard"> Debit card</option>
+        <option value="pp"> PayPal </option>
+      </select>
+
+
+  <input type="submit" name="sub">
+
+
+  </form>
+
+  </body>
+</html>
